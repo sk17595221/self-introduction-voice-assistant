@@ -1,15 +1,15 @@
 import pyttsx3
 while True:
     
-    print ("Prase 1 What’s your name?")
-    print("prase 2 Where are you from?")
-    print("prase 3 Where do you live?")
-    print("prase 4 How old are you?")
-    print("prase 5 When is your birthday?")
-    print("prase 6 What do you like?")
-    print("prase 7 Do you speak English?")
-    print("prase 8 Which year are you in?")
-    print("What’s 9 your favorite subject?")
+    print ("press  1 What’s your name?")
+    print("press  2 Where are you from?")
+    print("press  3 Where do you live?")
+    print("press  4 How old are you?")
+    print("press  5 When is your birthday?")
+    print("press  6 What do you like?")
+    print("press  7 Do you speak English?")
+    print("press  8 Which year are you in?")
+    print("press 9 What’s  your favorite subject?")
     print("enter your choise")
 
     p=input()
