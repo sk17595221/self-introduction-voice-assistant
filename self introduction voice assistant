@@ -1,0 +1,41 @@
+import pyttsx3
+print ("Prase 1 What’s your name?")
+print("prase 2 Where are you from?")
+print("prase 3 Where do you live?")
+print("prase 4 How old are you?")
+print("prase 5 When is your birthday?")
+print("prase 6 What do you like?")
+print("prase 7 Do you speak English?")
+print("prase 8 Which year are you in?")
+print("What’s 9 your favorite subject?")
+print("enter your choise")
+
+p=input()
+
+
+if int(p)==1:
+    pyttsx3.speak("hi my name is sumit ")
+    
+elif int(p)==2:
+    
+    pyttsx3.speak("I’m from India")
+elif int(p)==3:
+    
+    pyttsx3.speak("I live in Gwalior")
+elif int(p)==4:
+    pyttsx3.speak("I’m 22 years old.")
+elif int(p)==5:
+    pyttsx3.speak("My birthday is on  14 october ")
+elif int(p)==6:
+    
+    pyttsx3.speak("I like cricket")
+elif int(p)==7:
+    pyttsx3.speak("I can speak English very well.")
+elif int(p)==8:
+    pyttsx3.speak("I graduated from G.E.C")
+elif int(p)==9:
+    pyttsx3.speak("My favorite subject is data science ")
+else:
+    pyttsx3.speak("nice to meet you and good by")
+    
+    
